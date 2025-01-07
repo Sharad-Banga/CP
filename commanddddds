@@ -1,0 +1,7 @@
+ g++ CE.cpp
+
+ Get-Content input.txt | ./a.exe > output.txt
+
+ git add .
+ git commit -m "update"
+ git push origin main
