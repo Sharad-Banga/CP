@@ -1,0 +1,1 @@
+{"name":"Local: control","url":"d:\\CP\\Basics\\control.cpp","tests":[{"id":1736235806573,"input":"4 1 2 3 4","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP\\Basics\\control.cpp","group":"local","local":true}
