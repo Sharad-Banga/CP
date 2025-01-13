@@ -11,18 +11,28 @@ using namespace std;
 typedef long long int ll;
 typedef vector<vector<char>> vvc;
 
-int Frog(int x,int y,int k){
 
-  
-
-}
 
 void solve() {
     
     int x,y,k;
     cin>>x>>y>>k;
 
-  cout<<Frog(x,y,k);
+    int p = (x+k-1)/k;
+    int q = (y + k - 1) / k;
+
+           
+
+
+    if(x<y){
+        cout<<2*q<<endl;
+    }
+    else if(y==x){
+        cout<<2*q<<endl;
+    }
+    else{
+        cout<<(2*p)-1<<endl;
+    }
   
     
 }
