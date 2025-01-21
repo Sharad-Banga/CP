@@ -16,14 +16,12 @@ void solve() {
   long long n;
   cin>>n;
   long long ans = 1;
-  while(n>0){
-    if(n==1){
-      ans*=1;
-    }else{
-      ans*=2;
-    }
+  while(n>3){
     
-    n=(int)n/4;
+      ans*=2;
+    
+    
+    n=n/4;
   }
   
   cout<<ans<<endl;
