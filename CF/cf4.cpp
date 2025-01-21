@@ -27,8 +27,51 @@ void solve() {
             cin >> b[i];
         }
 
+    int aa = 0;
+    int bb = 0;
+    bool A = false;
+    bool B = false;
+    int AA = 0;
+    int BB = 0;
+    for(int i=0 ; i<n ; i++){
+        AA = aa;
+        BB = bb;
+      
+      if(n==1 && i==0 ){
+          aa+=a[i];
+      }
+      if(i==0 && n>1 && a[i]>=b[i]){
+        aa+=a[i];
+      }
+      if(A==true && b[i]>=a[i]){
+        bb+=b[i];
+      }
 
-    
+      if(A==true && a[i]>b[i]){
+        aa+=a[i];
+        bb+=b[i];
+      }
+
+      if(B==true && A==false){
+        aa+=a[i];
+      }
+
+      if(AA==aa){
+        A = false;
+      }else{
+        A = true;
+      }
+
+      if(BB==bb){
+        B = false;
+      }else{
+        B = true;
+      }
+
+      
+    }
+
+    cout<<aa-bb<<endl;
 
 
     
