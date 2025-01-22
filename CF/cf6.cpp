@@ -19,7 +19,7 @@ void solve() {
   while(n>3){
     
       ans*=2;
-    
+      
     
     n=n/4;
   }
