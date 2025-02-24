@@ -22,7 +22,7 @@ void solve(){
   int n ;
   cin>>n;
   vector<int> pf;
-  
+   
   for(int i = 2 ; i*i<=n ;i++){
     while(n%i==0){
         pf.push_back(i);
