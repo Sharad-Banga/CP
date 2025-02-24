@@ -1,0 +1,1 @@
+{"name":"Local: sieve","url":"d:\\CP\\prime_1\\sieve.cpp","tests":[{"id":1740353446610,"input":"1\n10","output":"2 3 5 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CP\\prime_1\\sieve.cpp","group":"local","local":true}
