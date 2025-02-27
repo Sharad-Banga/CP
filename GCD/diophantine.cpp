@@ -39,6 +39,8 @@ void solve(){
   cin>>a>>b>>c;
 
   // ax+by = c
+  // solution for x and y exists only if gcd of a and b fully divides c
+
 
   cout<<isPossible(a,b,c)<<endl;
 
